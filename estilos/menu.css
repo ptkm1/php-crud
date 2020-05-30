@@ -1,0 +1,73 @@
+.header{
+    background-color: dodgerblue;
+    width: 4%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 999;
+}
+
+.menu{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a{
+    color: white;
+}
+ion-icon {
+    color: white;
+}
+ion-icon:hover{
+    color: #c4c2c2;
+}
+
+
+
+
+
+
+@media screen and (max-width: 678px){
+.header{
+        width: 100%;
+        height: 70px;
+        top: 90vh;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu{
+        flex-flow: row nowrap;
+    }
+}
+@media screen and (max-width: 415px){
+    .header{
+        top:92vh;
+    }
+}
+@media screen and (max-height: 640px){
+    .header{
+        top:90vh;
+    }
+}
+@media screen and (max-height: 667px){
+    .header{
+        top:90vh;
+    }
+}

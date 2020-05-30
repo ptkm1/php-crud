@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: dodgerblue;
+}
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 3px white;
+    cursor: pointer;
+    color: white;
+    background: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+ion-icon{
+    color: white;
+}
+ion-icon:hover{
+    color: dodgerblue;
+}

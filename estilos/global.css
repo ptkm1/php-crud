@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{padding: 0; margin: 0; box-sizing: border-box; text-decoration: none; outline: none; font-family: 'Righteous', cursive;}
+
+input{
+    background: none;
+    border: solid 2px dodgerblue;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: dodgerblue;
+}
+select{
+    background: none;
+    border: solid 2px dodgerblue;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: dodgerblue;
+}
